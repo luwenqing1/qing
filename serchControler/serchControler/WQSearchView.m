@@ -14,7 +14,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        
+        //加点注释
     }
     return self;
 }
