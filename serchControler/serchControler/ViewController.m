@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface ViewController ()
 
 @end
 
@@ -19,7 +19,7 @@
     UISearchBar *sB = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
     [self.view addSubview:sB];
     
-    
+    NSLog(@"test");
 }
 
 
